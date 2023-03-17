@@ -7,8 +7,8 @@ public class WeatherData {
     private double mTemperature;
     private String mWeatherDescription;
 
-    public WeatherData(String date, double temperature, String weatherDescription) {
-        this.date = date;
+    public WeatherData(String location, double temperature, String weatherDescription) {
+        mLocation = location;
         mTemperature = temperature;
         mWeatherDescription = weatherDescription;
 

@@ -19,12 +19,12 @@
         android:layout_gravity="center_horizontal"
         android:text="Search" />
 
-
-
-    <com.github.mikephil.charting.charts.LineChart
-        android:id="@+id/line_chart"
-        android:layout_width="387dp"
-        android:layout_height="452dp"
-        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tv_weather_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
 
 </LinearLayout>
