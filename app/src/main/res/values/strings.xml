@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fragments_tabs</string>
+    <string name="search_city">Escribe el nombre de una ciudad</string>
+    <string name="search_button_text">Search</string>
+    <string name="tab_map">Mapa</string>
+    <string name="tab_text">Tiempo</string>
+</resources>
