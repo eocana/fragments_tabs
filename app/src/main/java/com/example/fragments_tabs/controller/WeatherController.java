@@ -11,7 +11,6 @@ import com.example.fragments_tabs.model.WeatherData;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -20,7 +19,7 @@ public class WeatherController {
     private Context context;
     private static final String API_KEY = "c2ad606f8bb650078c66b77956b99615";
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
-    private static final String BASE_URL2 = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=";
+    //private static final String BASE_URL2 = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=";
 
     public WeatherController(Context context) {
         this.context = context;
