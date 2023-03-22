@@ -75,11 +75,6 @@ public class WeatherFragment extends Fragment {
             }
 
             @Override
-            public void onSuccess2(List<WeatherData> weatherData) {
-
-            }
-
-            @Override
             public void onError(Exception error) {
                 Toast.makeText(getContext(), "Error: " + error.getMessage(), Toast.LENGTH_SHORT).show();
             }

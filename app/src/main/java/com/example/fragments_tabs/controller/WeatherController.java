@@ -19,7 +19,6 @@ public class WeatherController {
     private Context context;
     private static final String API_KEY = "c2ad606f8bb650078c66b77956b99615";
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
-    //private static final String BASE_URL2 = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=";
 
     public WeatherController(Context context) {
         this.context = context;
@@ -27,7 +26,6 @@ public class WeatherController {
 
     public interface WeatherCallback {
         void onSuccess(WeatherData weatherData);
-        void onSuccess2(List<WeatherData> weatherData);
         void onError(Exception error);
     }
 
